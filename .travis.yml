@@ -1,0 +1,8 @@
+language: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Insert_Your_Key
+  app: csv-to-json-converter
+  on:
+    repo: kirito-k/CSV-to-JSON-Converter
